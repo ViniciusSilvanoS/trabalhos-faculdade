@@ -1,0 +1,65 @@
+.cardBook {
+    min-height: 440px;
+    min-width: 290px;
+    max-width: 295px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.25); 
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerHeader {
+    height: 165px;
+    width: 265px;
+    display: flex;
+    gap: 10px;
+}
+
+.img {
+    height: 100%;
+}
+
+.titlePrice {
+    color: #2C3E50;
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border-radius: 4px; */
+    /* border: 1px solid #ECF0F1; */
+    background: #FFF;
+}
+
+.titlePrice__title {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: #404040;
+
+    padding: 10px;
+    width: 100%;
+    height: 270px;
+
+    border-radius: 4px;
+    border: 1px solid #ECF0F1;
+    background: #FFF;
+}
+
+.descriptionItem {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
